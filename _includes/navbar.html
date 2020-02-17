@@ -9,7 +9,7 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     {% for post in site.posts reversed %}
-                    <a class="dropdown-item" href="{{ post.url }}">{{ forloop.index }}. {{ post.title }}</a>
+                    <a class="dropdown-item" href="/WSoft-Dev-Blog{{ post.url }}">{{ forloop.index }}. {{ post.title }}</a>
                     {% endfor %}
                 </div>
             </li>
