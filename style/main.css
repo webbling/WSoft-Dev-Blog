@@ -61,6 +61,10 @@ ol a:hover {
     color: lightslategray;
 }
 
+li p, ol p {
+	margin-left: 0;
+}
+
 h3 a {
     color: lightgray;
 }

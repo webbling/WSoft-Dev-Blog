@@ -1,1 +1,138 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://webbling.github.io/WSoft-Dev-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://webbling.github.io/WSoft-Dev-Blog/" rel="alternate" type="text/html" /><updated>2020-02-17T16:08:36-05:00</updated><id>https://webbling.github.io/WSoft-Dev-Blog/feed.xml</id><title type="html">WSoft MDP Dev Blog</title><subtitle>University of Michigan Wolverine Soft MDP</subtitle><entry><title type="html">Test Post</title><link href="https://webbling.github.io/WSoft-Dev-Blog/2020/01/17/Test_Post.html" rel="alternate" type="text/html" title="Test Post" /><published>2020-01-17T00:00:00-05:00</published><updated>2020-01-17T00:00:00-05:00</updated><id>https://webbling.github.io/WSoft-Dev-Blog/2020/01/17/Test_Post</id><content type="html" xml:base="https://webbling.github.io/WSoft-Dev-Blog/2020/01/17/Test_Post.html">&lt;p&gt;This is a test post.&lt;/p&gt;</content><author><name>Blake</name></author><summary type="html">This is a test post.</summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/WSoft-Dev-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/WSoft-Dev-Blog/" rel="alternate" type="text/html" /><updated>2020-02-17T17:33:19-05:00</updated><id>http://localhost:4000/WSoft-Dev-Blog/feed.xml</id><title type="html">WSoft MDP Dev Blog</title><subtitle>University of Michigan Wolverine Soft MDP</subtitle><entry><title type="html">First Blog</title><link href="http://localhost:4000/WSoft-Dev-Blog/2020/02/17/First-Blog.html" rel="alternate" type="text/html" title="First Blog" /><published>2020-02-17T00:00:00-05:00</published><updated>2020-02-17T00:00:00-05:00</updated><id>http://localhost:4000/WSoft-Dev-Blog/2020/02/17/First-Blog</id><content type="html" xml:base="http://localhost:4000/WSoft-Dev-Blog/2020/02/17/First-Blog.html">&lt;p&gt;Pre-Alpha 1 Sprint Post&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;It has now been 2 weeks since Project Blue officially kicked off. I have been placed in the Bosses pod as part of the Design and Programming teams.&lt;/p&gt;
+
+&lt;p&gt;My Jira task for this sprint was to design potential boss attacks that could work for either the Crystal Caves boss (Bird) or the Abandoned City boss (Guardian).&lt;/p&gt;
+
+&lt;h2 id=&quot;pre-design&quot;&gt;Pre-Design&lt;/h2&gt;
+
+&lt;p&gt;Before thinking of the attacks I did a little bit of prep that would help me think of better attacks. Gino linked some videos related to designing boss battles on Confluence that I watched. I also watched some videos on my own of exciting boss battles. Another source of inspiration I had was to think of different Shonen Animes I’ve watched such as My Hero Academia and Attack of Titan. These shows have been interesting and hyped fight sequences that could work in a boss battle.&lt;/p&gt;
+
+&lt;h2 id=&quot;initial-concepts&quot;&gt;Initial Concepts&lt;/h2&gt;
+
+&lt;p&gt;Here are the first two concepts I came up with&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/WSoft-Dev-Blog/images/Boss_Attack_Sketch3.png&quot; alt=&quot;Ground Slam&quot; /&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;img src=&quot;/WSoft-Dev-Blog/images/Boss_Attack_Sketch2.png&quot; alt=&quot;Spinning Projectile&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Best way to summarize my attack prototypes… ENVIRONMENT.&lt;/p&gt;
+
+&lt;p&gt;I really like the idea of the boss using the environment to help defeat the enemy. In my opinion, when bosses in video games do this it creates a feeling that the boss belongs in that area/level. I also tried to keep the players ability into account to make it feel like the player was adequately equipped to fight this boss.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;In the first image the boss punches/slams the ground. As a result of this action, crystals/debris flies up from the ground. My main inspiration for this attack was from a few episodes of (no spoilers) My Hero Academia. I won’t go into more specifics than that, but if you know then you know.&lt;/p&gt;
+
+&lt;p&gt;This one is probably my favorite design of the two (which you can probably tell from increased quality). The player, who attacks in melee range, would use their teleport ability to escape the damaging environment the boss creates.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;The second image attack is a projectile orriented attack. The boss summons/levitates a single object that is launched quickly at the players position. My inspiration for this attack was the Enchanted Sword enemy from Terraria.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;img src=&quot;/WSoft-Dev-Blog/images/terraria_sword.jpg&quot; alt=&quot;Terraria Sword&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This enemy in Terraria finds you underground, spins around for a seconds, and then launches itself at the player. That’s how I’m envisioning the projectile would fly in this attack.&lt;/p&gt;
+
+&lt;h2 id=&quot;concept-feedback&quot;&gt;Concept Feedback&lt;/h2&gt;
+
+&lt;p&gt;Gino, the bosses pod lead, gave me some feedback about these concepts.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ground/Slam Attack&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Great example of an attack I could see being used for the Crystal Caves boss. Straightforward explanation as how it forces the player to move. I am curious how exactly how the hazards should come up from the ground through. Should it all come up at once? Or should it move outward from the boss, appearing like a wave of crystals? Also, will it continue movement from the floor to the walls, and possibly even the ceiling? Don’t worry about addressing these questions now though, as they can be answered after this attack is implemented.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Projectile Targeted Attack&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;I could see this attack being more characteristic of the Abandoned City boss. Still prototype this. Consider using DOLookAt() to aim the projectile towards the player.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;failed-concept&quot;&gt;Failed Concept&lt;/h2&gt;
+
+&lt;p&gt;I had a third concept that I discovered wouldn’t be impactful after recieving feedback about it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/WSoft-Dev-Blog/images/Boss_Attack_Sketch1.png&quot; alt=&quot;Failed Wall Concept&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This attack features a wall of environment/crystals/debris/whatever that the boss summons or levitates. After a brief moment for the boss to get the environment objects in position, it launches them outwards towards the player. There will be gaps in the wall of objects that the player can teleport to in order to dodge.&lt;/p&gt;
+
+&lt;p&gt;This wouldn’t work in its current state because as Gino pointed out:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Wall Attack&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Does this assume the player cannot teleport through the boss’s attacks?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The player has an ability where they can throw their sword and teleport to it. They wouldn’t need to look for the gap in the current state of the attack because they could throw their sword through the projectile and teleport to it. This attack could still work, but it needs to be redesigned.&lt;/p&gt;
+
+&lt;h2 id=&quot;using-feedback&quot;&gt;Using Feedback&lt;/h2&gt;
+
+&lt;p&gt;After speaking with Gino in person he reminded me of the 3 phases each boss will go through. The first phase introduces an attack, phase two will introduce a twist to the attack, and phase 3 will be a slightly amplified version of phase 2.&lt;/p&gt;
+
+&lt;p&gt;I went back to my first two concepts and created the attack in all 3 phases.&lt;/p&gt;
+
+&lt;h2 id=&quot;design-iteration&quot;&gt;Design Iteration&lt;/h2&gt;
+
+&lt;h4 id=&quot;crystal-ground-slam&quot;&gt;Crystal Ground Slam&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/WSoft-Dev-Blog/images/Crystal_Prototype_Phase1.png&quot; alt=&quot;Crystal 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Phase 1: An addition. The boss does a little bit of light flapping. While flapping its wings, it shoots crystals out from its wings. The boss lands lightly.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;img src=&quot;/WSoft-Dev-Blog/images/Crystal_Prototype_Phase2.png&quot; alt=&quot;Crystal 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Phase 2: Same core concept as before. In this phase the boss lands heavily instead of lightly after shooting projectiles from its wings. This heavy slam “breaks the ground” and sends out a wave of crystals from the ground. The crystals quickly degrade and break without additional effect.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;img src=&quot;/WSoft-Dev-Blog/images/Crystal_Prototype_Phase3.png&quot; alt=&quot;Crystal 3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Phase 3: A slight addition. After the actions of the Phase 1 and Phase 2 portion of this attack, the boss raises its wings and breaks off pieces of the crystals that came from the ground at the player, creating additional projectiles for the player to dodge.&lt;/p&gt;
+
+&lt;h4 id=&quot;guardian-weapon-proficiency&quot;&gt;Guardian Weapon Proficiency&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/WSoft-Dev-Blog/images/Guardian_Prototype_Phase1.png&quot; alt=&quot;Guardian 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Phase 1: The same mechanic from the original concept. The Guardian summons a phantom sword object that will teleport blink to the player very similar to the player’s core ability. Might make the sword reappear right before hitting the player to give the player the chance to dodge when first encountering the attack.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;img src=&quot;/WSoft-Dev-Blog/images/Guardian_Prototype_Phase2.png&quot; alt=&quot;Guardian 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Phase 2: Where things get very interesting. Using its second bracelet, the Guardian summons a clone of itself and hovers above the player, demonstrating its mastery of the bracelet/weapon. After hovering for a second or two, they teleport and strike the player. I think it would be smart to give the player a chance to parry this attack rather than simply dodging, but if Io parries the clone she will take damage.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;img src=&quot;/WSoft-Dev-Blog/images/Guardian_Prototype_Phase3.png&quot; alt=&quot;Guardian 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Phase 3: Combines Phase 1 and 2 essentially. The swords will strike first and then the Guardian + clone. The projectiles are staggered making it require a sequence of skilled dodging from the player.&lt;/p&gt;
+
+&lt;h2 id=&quot;next-sprint-plans&quot;&gt;Next Sprint Plans&lt;/h2&gt;
+
+&lt;p&gt;Currently I am awaiting approval from Gino on my iterated designs. Once approved I will be working on implementing them in Unity as Scriptable Objects.&lt;/p&gt;
+
+&lt;h2 id=&quot;meetings-this-sprint&quot;&gt;Meetings this Sprint&lt;/h2&gt;
+
+&lt;p&gt;Feb. 2nd (2 Hours)&lt;/p&gt;
+
+&lt;p&gt;Feb. 9th (2 Hours) ABSENT&lt;/p&gt;</content><author><name>Blake</name></author><summary type="html">Pre-Alpha 1 Sprint Post</summary></entry><entry><title type="html">Test Post</title><link href="http://localhost:4000/WSoft-Dev-Blog/2020/01/17/Test_Post.html" rel="alternate" type="text/html" title="Test Post" /><published>2020-01-17T00:00:00-05:00</published><updated>2020-01-17T00:00:00-05:00</updated><id>http://localhost:4000/WSoft-Dev-Blog/2020/01/17/Test_Post</id><content type="html" xml:base="http://localhost:4000/WSoft-Dev-Blog/2020/01/17/Test_Post.html">&lt;p&gt;This is a test post.&lt;/p&gt;</content><author><name>Blake</name></author><summary type="html">This is a test post.</summary></entry></feed>
