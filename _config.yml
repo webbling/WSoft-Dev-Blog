@@ -22,8 +22,8 @@ title: WSoft MDP Dev Blog
 email: webbling@umich.edu
 description: >- # this means to ignore newlines until "baseurl:"
   University of Michigan Wolverine Soft MDP
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://webbling.github.io/_site" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://webbling.github.io/WSoft-Dev-Blog" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: 
 github_username:  webbling
 

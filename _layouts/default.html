@@ -17,9 +17,10 @@
     
           {% for post in site.posts %}
           <div class="card text-white bg-dark mb-5 mx-auto py-2 rounded">
-              <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
+              <a href="/WSoft-Dev-Blog{{ post.url }}" class="post-title">{{ post.title }}</a>
               <h5>{{ post.date | date: "%B %d, %Y"}}</h5>
               <br/>
+			  <!--
               <div class="intro">
                 {{ post.excerpt }}
               </div>
@@ -29,6 +30,7 @@
                   <a href="{{ post.url }}">Read more...</a>
               </p>
               {% endif %}
+			  -->
           </div>
           {% endfor %}
     
