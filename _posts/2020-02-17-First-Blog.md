@@ -16,6 +16,14 @@ My Jira task for this sprint was to design potential boss attacks that could wor
 
 Before thinking of the attacks I did a little bit of prep that would help me think of better attacks. Gino linked some videos related to designing boss battles on Confluence that I watched. I also watched some videos on my own of exciting boss battles. Another source of inspiration I had was to think of different Shonen Animes I've watched such as My Hero Academia and Attack of Titan. These shows have been interesting and hyped fight sequences that could work in a boss battle.
 
+- [The Anatomy of a Bossfight](https://www.youtube.com/watch?v=6BL0O7CL0N4&t=295s)
+
+- [How Cuphead's Bosses (Try to) Kill You](https://www.youtube.com/watch?v=F8T6Ul4aHTI)
+
+- [Boss Up: Boss Battle Design Fundamentals and Retrospective](https://www.youtube.com/watch?v=48Ymh4Ge5j8)
+
+- [My Hero Academia Fight (SEASON 3 SPOILERS)](https://www.youtube.com/watch?v=LEoDK_LqueY)
+
 ## Initial Concepts
 
 Here are the first two concepts I came up with

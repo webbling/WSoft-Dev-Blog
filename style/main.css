@@ -61,7 +61,7 @@ ol a:hover {
     color: lightslategray;
 }
 
-li p, ol p {
+li p, ol p, ul p, ul ul {
 	margin-left: 0;
 }
 

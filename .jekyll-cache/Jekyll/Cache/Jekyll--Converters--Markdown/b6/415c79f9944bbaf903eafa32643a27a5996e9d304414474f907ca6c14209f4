@@ -1,4 +1,4 @@
-I"�<p>February 17th blog post</p>
+I"O!<p>Pre-Alpha 1 Sprint Post</p>
 
 <!--more-->
 
@@ -9,6 +9,21 @@
 <h2 id="pre-design">Pre-Design</h2>
 
 <p>Before thinking of the attacks I did a little bit of prep that would help me think of better attacks. Gino linked some videos related to designing boss battles on Confluence that I watched. I also watched some videos on my own of exciting boss battles. Another source of inspiration I had was to think of different Shonen Animes I’ve watched such as My Hero Academia and Attack of Titan. These shows have been interesting and hyped fight sequences that could work in a boss battle.</p>
+
+<ul>
+  <li>
+    <p><a href="https://www.youtube.com/watch?v=6BL0O7CL0N4&amp;t=295s">The Anatomy of a Bossfight</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.youtube.com/watch?v=F8T6Ul4aHTI">How Cuphead’s Bosses (Try to) Kill You</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.youtube.com/watch?v=48Ymh4Ge5j8">Boss Up: Boss Battle Design Fundamentals and Retrospective</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.youtube.com/watch?v=LEoDK_LqueY">My Hero Academia Fight (SEASON 3 SPOILERS)</a></p>
+  </li>
+</ul>
 
 <h2 id="initial-concepts">Initial Concepts</h2>
 
@@ -95,49 +110,37 @@
 
 <p><img src="/WSoft-Dev-Blog/images/Crystal_Prototype_Phase1.png" alt="Crystal 1" /></p>
 
+<p>Phase 1: An addition. The boss does a little bit of light flapping. While flapping its wings, it shoots crystals out from its wings. The boss lands lightly.</p>
+
 <!--more-->
 
 <p><img src="/WSoft-Dev-Blog/images/Crystal_Prototype_Phase2.png" alt="Crystal 2" /></p>
+
+<p>Phase 2: Same core concept as before. In this phase the boss lands heavily instead of lightly after shooting projectiles from its wings. This heavy slam “breaks the ground” and sends out a wave of crystals from the ground. The crystals quickly degrade and break without additional effect.</p>
 
 <!--more-->
 
 <p><img src="/WSoft-Dev-Blog/images/Crystal_Prototype_Phase3.png" alt="Crystal 3" /></p>
 
-<ul>
-  <li>
-    <p>Phase 1: An addition. The boss does a little bit of light flapping. While flapping its wings, it shoots crystals out from its wings. The boss lands lightly.</p>
-  </li>
-  <li>
-    <p>Phase 2: Same core concept as before. In this phase the boss lands heavily instead of lightly after shooting projectiles from its wings. This heavy slam “breaks the ground” and sends out a wave of crystals from the ground. The crystals quickly degrade and break without additional effect.</p>
-  </li>
-  <li>
-    <p>Phase 3: A slight addition. After the actions of the Phase 1 and Phase 2 portion of this attack, the boss raises its wings and breaks off pieces of the crystals that came from the ground at the player, creating additional projectiles for the player to dodge.</p>
-  </li>
-</ul>
+<p>Phase 3: A slight addition. After the actions of the Phase 1 and Phase 2 portion of this attack, the boss raises its wings and breaks off pieces of the crystals that came from the ground at the player, creating additional projectiles for the player to dodge.</p>
 
 <h4 id="guardian-weapon-proficiency">Guardian Weapon Proficiency</h4>
 
 <p><img src="/WSoft-Dev-Blog/images/Guardian_Prototype_Phase1.png" alt="Guardian 1" /></p>
 
+<p>Phase 1: The same mechanic from the original concept. The Guardian summons a phantom sword object that will teleport blink to the player very similar to the player’s core ability. Might make the sword reappear right before hitting the player to give the player the chance to dodge when first encountering the attack.</p>
+
 <!--more-->
 
 <p><img src="/WSoft-Dev-Blog/images/Guardian_Prototype_Phase2.png" alt="Guardian 2" /></p>
+
+<p>Phase 2: Where things get very interesting. Using its second bracelet, the Guardian summons a clone of itself and hovers above the player, demonstrating its mastery of the bracelet/weapon. After hovering for a second or two, they teleport and strike the player. I think it would be smart to give the player a chance to parry this attack rather than simply dodging, but if Io parries the clone she will take damage.</p>
 
 <!--more-->
 
 <p><img src="/WSoft-Dev-Blog/images/Guardian_Prototype_Phase3.png" alt="Guardian 2" /></p>
 
-<ul>
-  <li>
-    <p>Phase 1: The same mechanic from the original concept. The Guardian summons a phantom sword object that will teleport blink to the player very similar to the player’s core ability. Might make the sword reappear right before hitting the player to give the player the chance to dodge when first encountering the attack.</p>
-  </li>
-  <li>
-    <p>Phase 2: Where things get very interesting. Using its second bracelet, the Guardian summons a clone of itself and hovers above the player, demonstrating its mastery of the bracelet/weapon. After hovering for a second or two, they teleport and strike the player. I think it would be smart to give the player a chance to parry this attack rather than simply dodging, but if Io parries the clone she will take damage.</p>
-  </li>
-  <li>
-    <p>Phase 3: Combines Phase 1 and 2 essentially. The swords will strike first and then the Guardian + clone. The projectiles are staggered making it require a sequence of skilled dodging from the player.</p>
-  </li>
-</ul>
+<p>Phase 3: Combines Phase 1 and 2 essentially. The swords will strike first and then the Guardian + clone. The projectiles are staggered making it require a sequence of skilled dodging from the player.</p>
 
 <h2 id="next-sprint-plans">Next Sprint Plans</h2>
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/WSoft-Dev-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/WSoft-Dev-Blog/" rel="alternate" type="text/html" /><updated>2020-02-17T17:33:19-05:00</updated><id>http://localhost:4000/WSoft-Dev-Blog/feed.xml</id><title type="html">WSoft MDP Dev Blog</title><subtitle>University of Michigan Wolverine Soft MDP</subtitle><entry><title type="html">First Blog</title><link href="http://localhost:4000/WSoft-Dev-Blog/2020/02/17/First-Blog.html" rel="alternate" type="text/html" title="First Blog" /><published>2020-02-17T00:00:00-05:00</published><updated>2020-02-17T00:00:00-05:00</updated><id>http://localhost:4000/WSoft-Dev-Blog/2020/02/17/First-Blog</id><content type="html" xml:base="http://localhost:4000/WSoft-Dev-Blog/2020/02/17/First-Blog.html">&lt;p&gt;Pre-Alpha 1 Sprint Post&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/WSoft-Dev-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/WSoft-Dev-Blog/" rel="alternate" type="text/html" /><updated>2020-02-17T18:30:18-05:00</updated><id>http://localhost:4000/WSoft-Dev-Blog/feed.xml</id><title type="html">WSoft MDP Dev Blog</title><subtitle>University of Michigan Wolverine Soft MDP</subtitle><entry><title type="html">First Blog</title><link href="http://localhost:4000/WSoft-Dev-Blog/2020/02/17/First-Blog.html" rel="alternate" type="text/html" title="First Blog" /><published>2020-02-17T00:00:00-05:00</published><updated>2020-02-17T00:00:00-05:00</updated><id>http://localhost:4000/WSoft-Dev-Blog/2020/02/17/First-Blog</id><content type="html" xml:base="http://localhost:4000/WSoft-Dev-Blog/2020/02/17/First-Blog.html">&lt;p&gt;Pre-Alpha 1 Sprint Post&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -9,6 +9,21 @@
 &lt;h2 id=&quot;pre-design&quot;&gt;Pre-Design&lt;/h2&gt;
 
 &lt;p&gt;Before thinking of the attacks I did a little bit of prep that would help me think of better attacks. Gino linked some videos related to designing boss battles on Confluence that I watched. I also watched some videos on my own of exciting boss battles. Another source of inspiration I had was to think of different Shonen Animes I’ve watched such as My Hero Academia and Attack of Titan. These shows have been interesting and hyped fight sequences that could work in a boss battle.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=6BL0O7CL0N4&amp;amp;t=295s&quot;&gt;The Anatomy of a Bossfight&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=F8T6Ul4aHTI&quot;&gt;How Cuphead’s Bosses (Try to) Kill You&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=48Ymh4Ge5j8&quot;&gt;Boss Up: Boss Battle Design Fundamentals and Retrospective&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=LEoDK_LqueY&quot;&gt;My Hero Academia Fight (SEASON 3 SPOILERS)&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;initial-concepts&quot;&gt;Initial Concepts&lt;/h2&gt;
 
