@@ -40,6 +40,8 @@
                     
                     <a class="dropdown-item" href="/WSoft-Dev-Blog/2020/02/29/Second-Blog.html">3. Second Blog</a>
                     
+                    <a class="dropdown-item" href="/WSoft-Dev-Blog/2020/03/23/Third-Blog.html">4. Third Blog</a>
+                    
                 </div>
             </li>
 			<!--
@@ -64,8 +66,7 @@
 
 <p>In this sprint I was tasked with implementing prototypes of my boss attack designs in Unity using DOTween, a Unity package. At the beginning of the sprint I was waiting for the boss projectile system to get finished so I spent some time looking into DOTween, BitBucket, and managing branches in a large project.</p>
 
-<h2 id="reviewing-dotween-documentation">Reviewing DOTween Documentation</h2>
-<!--(3 Hours)-->
+<h2 id="reviewing-dotween-documentation-3-hours">Reviewing DOTween Documentation (3 Hours)</h2>
 
 <p>DOTween is a Unity package that I have not worked with before. In my opinion it appears advertised as an animation package, but apparently it can be used to create quick prototypes of boss attacks.</p>
 
@@ -82,8 +83,7 @@
   </li>
 </ul>
 
-<h2 id="working-with-gitbitbucket">Working with Git/BitBucket</h2>
-<!--(3 Hours)-->
+<h2 id="working-with-gitbitbucket-3-hours">Working with Git/BitBucket (3 Hours)</h2>
 
 <p>Much like Seyhyun, I am not a big fan of git and really didn’t use it before this semester. We’re using BitBucket to handle our repository and branches. Max created a “Git Guidelines” Confluence page. I spent some time looking through this and familiarizing myself with how BitBucket works and how the Project_Blue repository is meant to be organized.</p>
 
@@ -93,15 +93,13 @@
 
 <p>Lastly, I reviewed how assets should be stored/organized in the Unity Project. I was initally confused about the purpose of the “_Development” folder. I didn’t know if I should place my DOTween prototype scripts in this “_Development” folder or not. Later I found out that these prototype scripts won’t be in the final project build so they should be placed in “_Development”.</p>
 
-<h2 id="reviewing-boss-pod-tools">Reviewing Boss Pod Tools</h2>
-<!--(2 Hours)-->
+<h2 id="reviewing-boss-pod-tools-2-hours">Reviewing Boss Pod Tools (2 Hours)</h2>
 
 <p>Members of the Boss pod have created tools that will make it easier to me to implement my attack prototypes. Robert Keller implemented a detailed script that handles Boss Projectiles. Since both of my prototypes utilize projectiles, I needed to learn how this script works. Robert included many properties in his script such as multiple stages, different methods of projectile destruction, stage transitions, movement settings, etc so this took some time to look through and figure out what settings would effect my prototypes.</p>
 
 <p>An issue I found/ran into was instantiating projectiles. Gino set up a template prototype scene as a guide on how to build these prototypes. The projectile in his scene was not functioning correctly. It was meant to be set active in the Start() function and then instantiated/move towards the player after the boss jumps from one end of the template scene to the other. What was actually happening was it would instantiate after the boss moves and wouldn’t move toward the player. A weird fix to these was to set the projectile game object as inactive in the scene heirarchy. I’m not sure how this fixed the issue, but I was now able to instantiate projectiles in my prototypes.</p>
 
-<h2 id="crystal-slam-attack-scripts">Crystal Slam Attack Scripts</h2>
-<!--(8 Hours)-->
+<h2 id="crystal-slam-attack-scripts-8-hours">Crystal Slam Attack Scripts (8 Hours)</h2>
 
 <p>Working with the DOTween package was tricky even after spending time looking through the documentation. A lot fo time was spent minorly agjusting float values and Game Object destinations until I achieved an attack prototype that looked good enough to share with the studio team.</p>
 
@@ -129,14 +127,14 @@
 
 <p>Initially when I shared my Phase 3 of this attack I got some feedback that it might not be extreme enough. I took that feedback and make version 2 of Phase 3 by adding moy projectiles for Io to dodge.</p>
 
-<h2 id="sprint-meetings">Sprint Meetings</h2>
+<h2 id="sprint-meetings-4-hours">Sprint Meetings (4 Hours)</h2>
 <!--(4 Hours)-->
 
 <p>Feb 16th, 2020 - 2 Hours</p>
 
 <p>Feb 23rd, 2020 - 2 Hours</p>
 
-<p>We did not have an end of spring meeting because of spring break conflicting with our normal meeting times. We plan to have a makeup meeting as soon as possible after break.</p>
+<p>We did not have an end of spring meeting because of spring break conflicting with our normal meeting times. We plan to have a makeup meeting as soon as possible after break. My hours this week were about 4 hours short. Next sprint I will do a better job of taking on more tasks and making sure I devote enough time to Project Blue.</p>
 
       </div>
     </div>
