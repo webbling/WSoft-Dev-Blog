@@ -1,0 +1,66 @@
+I"�
+<p>1/2 of Pre-beta 2 and Pre-beta FINAL Blog Post</p>
+
+<!--more-->
+
+<h2 id="current-progress--boss-attacks-meeting">Current Progress + Boss Attacks Meeting</h2>
+
+<p>I left off on my last blog post talking about how we had very little boss attacks implemented/planned to be implemented. I had created a lot more simple designs that could be easily implemented. Obviously COVID-19 impacted our ability to turn this boss into what it could be. There’s also a lot of animation that has to be done with every boss attack so we were limited in what we were able to do moving forward.</p>
+
+<p>During the week after the March 22nd studio meeting, Gino, Thomas, Tolu, and I held a designers meeting. During this meeting we talked about how we don’t have a lot of time left to implement new things. Every attack we design requires a cetain amount of animation and at this point in time we had virtually no boss animations. In this meeting we discussed what we would be satisfied with as an end result.</p>
+
+<p>After a lot of discussion we settled on 6 attacks.</p>
+
+<ol>
+  <li>
+    <p>The wall attack that I prototyped</p>
+  </li>
+  <li>
+    <p>Throw sword/slam</p>
+  </li>
+  <li>
+    <p>Throw sword/slam w/ spikes</p>
+  </li>
+  <li>
+    <p>An air lazer attack</p>
+  </li>
+  <li>
+    <p>A ground lazer attack</p>
+  </li>
+  <li>
+    <p>A charging attack</p>
+  </li>
+</ol>
+
+<p>Some are a little similar. The overall goal of this meeting was to try to make as many attacks as possible while reusing as many animations as possible. A lot of these attacks start out the same, have different intermediate actions, and similar endings. We ended the meeting with the impression that the lazor attack could potentially not make it into the game because it requires the most assets from other pods.</p>
+
+<h2 id="playtesting">Playtesting</h2>
+
+<p>Once Gino got a few of the Boss attacks implemented they needed to be tested. This was my only Jira task for the remainder of this sprint. I spent time looping each attack that had been implemented so far. Theis was teh feedback that I had for Gino.</p>
+
+<ul>
+  <li>
+    <p>Boss doesn’t give any indication that it’s charging versus teleporting to it’s sword/slam</p>
+  </li>
+  <li>
+    <p>Boss charges too fast for the player to react</p>
+  </li>
+  <li>
+    <p>Missing Reference bug breaks the Boss Attack - Scriptable Object generator</p>
+  </li>
+  <li>
+    <p>Wall Attack missing spikes</p>
+  </li>
+  <li>
+    <p>Boss teleport VFX happens when Io teleports</p>
+  </li>
+</ul>
+
+<p>Without Boss health and Io health implemented in this Unity MVP scene, it was too difficult to dertermine if Io had a large enough window to damage the boss.</p>
+
+<h2 id="studio-meetings">Studio Meetings</h2>
+
+<p>March 29th - Discord</p>
+
+<p>April 5th - Discord</p>
+:ET

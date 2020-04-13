@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/WSoft-Dev-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/WSoft-Dev-Blog/" rel="alternate" type="text/html" /><updated>2020-03-23T16:57:41-04:00</updated><id>http://localhost:4000/WSoft-Dev-Blog/feed.xml</id><title type="html">WSoft MDP Dev Blog</title><subtitle>University of Michigan Wolverine Soft MDP</subtitle><entry><title type="html">Third Blog</title><link href="http://localhost:4000/WSoft-Dev-Blog/2020/03/23/Third-Blog.html" rel="alternate" type="text/html" title="Third Blog" /><published>2020-03-23T00:00:00-04:00</published><updated>2020-03-23T00:00:00-04:00</updated><id>http://localhost:4000/WSoft-Dev-Blog/2020/03/23/Third-Blog</id><content type="html" xml:base="http://localhost:4000/WSoft-Dev-Blog/2020/03/23/Third-Blog.html">&lt;p&gt;Pre-Beta 1 and 1/2 of Pre-beta 2 Blog Post&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/WSoft-Dev-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/WSoft-Dev-Blog/" rel="alternate" type="text/html" /><updated>2020-04-13T03:35:40-04:00</updated><id>http://localhost:4000/WSoft-Dev-Blog/feed.xml</id><title type="html">WSoft MDP Dev Blog</title><subtitle>University of Michigan Wolverine Soft MDP</subtitle><entry><title type="html">Fourth Blog</title><link href="http://localhost:4000/WSoft-Dev-Blog/2020/04/06/Fourth-Blog.html" rel="alternate" type="text/html" title="Fourth Blog" /><published>2020-04-06T00:00:00-04:00</published><updated>2020-04-06T00:00:00-04:00</updated><id>http://localhost:4000/WSoft-Dev-Blog/2020/04/06/Fourth-Blog</id><content type="html" xml:base="http://localhost:4000/WSoft-Dev-Blog/2020/04/06/Fourth-Blog.html">&lt;p&gt;1/2 of Pre-beta 2 and Pre-beta FINAL Blog Post&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;current-progress--boss-attacks-meeting&quot;&gt;Current Progress + Boss Attacks Meeting&lt;/h2&gt;
+
+&lt;p&gt;I left off on my last blog post talking about how we had very little boss attacks implemented/planned to be implemented. I had created a lot more simple designs that could be easily implemented. Obviously COVID-19 impacted our ability to turn this boss into what it could be. There’s also a lot of animation that has to be done with every boss attack so we were limited in what we were able to do moving forward.&lt;/p&gt;
+
+&lt;p&gt;During the week after the March 22nd studio meeting, Gino, Thomas, Tolu, and I held a designers meeting. During this meeting we talked about how we don’t have a lot of time left to implement new things. Every attack we design requires a cetain amount of animation and at this point in time we had virtually no boss animations. In this meeting we discussed what we would be satisfied with as an end result.&lt;/p&gt;
+
+&lt;p&gt;After a lot of discussion we settled on 6 attacks.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;The wall attack that I prototyped&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Throw sword/slam&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Throw sword/slam w/ spikes&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;An air lazer attack&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A ground lazer attack&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A charging attack&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Some are a little similar. The overall goal of this meeting was to try to make as many attacks as possible while reusing as many animations as possible. A lot of these attacks start out the same, have different intermediate actions, and similar endings. We ended the meeting with the impression that the lazor attack could potentially not make it into the game because it requires the most assets from other pods.&lt;/p&gt;
+
+&lt;h2 id=&quot;playtesting&quot;&gt;Playtesting&lt;/h2&gt;
+
+&lt;p&gt;Once Gino got a few of the Boss attacks implemented they needed to be tested. This was my only Jira task for the remainder of this sprint. I spent time looping each attack that had been implemented so far. Theis was teh feedback that I had for Gino.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Boss doesn’t give any indication that it’s charging versus teleporting to it’s sword/slam&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Boss charges too fast for the player to react&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Missing Reference bug breaks the Boss Attack - Scriptable Object generator&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Wall Attack missing spikes&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Boss teleport VFX happens when Io teleports&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Without Boss health and Io health implemented in this Unity MVP scene, it was too difficult to dertermine if Io had a large enough window to damage the boss.&lt;/p&gt;
+
+&lt;h2 id=&quot;studio-meetings&quot;&gt;Studio Meetings&lt;/h2&gt;
+
+&lt;p&gt;March 29th - Discord&lt;/p&gt;
+
+&lt;p&gt;April 5th - Discord&lt;/p&gt;</content><author><name>Blake</name></author><summary type="html">1/2 of Pre-beta 2 and Pre-beta FINAL Blog Post</summary></entry><entry><title type="html">Third Blog</title><link href="http://localhost:4000/WSoft-Dev-Blog/2020/03/23/Third-Blog.html" rel="alternate" type="text/html" title="Third Blog" /><published>2020-03-23T00:00:00-04:00</published><updated>2020-03-23T00:00:00-04:00</updated><id>http://localhost:4000/WSoft-Dev-Blog/2020/03/23/Third-Blog</id><content type="html" xml:base="http://localhost:4000/WSoft-Dev-Blog/2020/03/23/Third-Blog.html">&lt;p&gt;Pre-Beta 1 and 1/2 of Pre-beta 2 Blog Post&lt;/p&gt;
 
 &lt;!--more--&gt;
 
