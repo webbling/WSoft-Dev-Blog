@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/WSoft-Dev-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/WSoft-Dev-Blog/" rel="alternate" type="text/html" /><updated>2020-04-13T03:35:40-04:00</updated><id>http://localhost:4000/WSoft-Dev-Blog/feed.xml</id><title type="html">WSoft MDP Dev Blog</title><subtitle>University of Michigan Wolverine Soft MDP</subtitle><entry><title type="html">Fourth Blog</title><link href="http://localhost:4000/WSoft-Dev-Blog/2020/04/06/Fourth-Blog.html" rel="alternate" type="text/html" title="Fourth Blog" /><published>2020-04-06T00:00:00-04:00</published><updated>2020-04-06T00:00:00-04:00</updated><id>http://localhost:4000/WSoft-Dev-Blog/2020/04/06/Fourth-Blog</id><content type="html" xml:base="http://localhost:4000/WSoft-Dev-Blog/2020/04/06/Fourth-Blog.html">&lt;p&gt;1/2 of Pre-beta 2 and Pre-beta FINAL Blog Post&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/WSoft-Dev-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/WSoft-Dev-Blog/" rel="alternate" type="text/html" /><updated>2020-04-20T22:26:26-04:00</updated><id>http://localhost:4000/WSoft-Dev-Blog/feed.xml</id><title type="html">WSoft MDP Dev Blog</title><subtitle>University of Michigan Wolverine Soft MDP</subtitle><entry><title type="html">Fifth Blog</title><link href="http://localhost:4000/WSoft-Dev-Blog/2020/04/20/Fifth-Blog.html" rel="alternate" type="text/html" title="Fifth Blog" /><published>2020-04-20T00:00:00-04:00</published><updated>2020-04-20T00:00:00-04:00</updated><id>http://localhost:4000/WSoft-Dev-Blog/2020/04/20/Fifth-Blog</id><content type="html" xml:base="http://localhost:4000/WSoft-Dev-Blog/2020/04/20/Fifth-Blog.html">&lt;p&gt;Pre-Gold 1 and Pre-Gold FINAL Blog Post&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;playtesting-playtesting-and-more-playtesting&quot;&gt;Playtesting, Playtesting, and More Playtesting&lt;/h2&gt;
+
+&lt;p&gt;The vast majority of my time these past two weeks has been spent playtesting the game. The boss was not able to be playtesting in the Pre-Gold 1 version of the game because of a progression bug in the later parts of the windmill level. So my first set of playtesting was just playing the full game and giving feedback and reporting pugs outside of my pod. I was able to record some gameplay with audio + visual feedback. I uploaded that to YouTube and created the confluence page below.&lt;/p&gt;
+
+&lt;h4 id=&quot;general-playtesting&quot;&gt;&lt;a href=&quot;https://studio.eecs.umich.edu/confluence/display/BLUE/04-13-2020+-++Blake+Webb&quot;&gt;General Playtesting&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Gino then created a branch for us to go and build a level that just had the boss arena. I was then able to give boss specific feedback that would be helpful for Boss Fight gameplay.&lt;/p&gt;
+
+&lt;h4 id=&quot;boss-playtesting&quot;&gt;&lt;a href=&quot;https://studio.eecs.umich.edu/confluence/display/BLUE/04-13-2020+-++Blake+Webb+-+Boss+Attacks+Playtest&quot;&gt;Boss Playtesting&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Once again, playtesting was my only Jira task for these two sprints.&lt;/p&gt;
+
+&lt;h2 id=&quot;project-blue-feedback&quot;&gt;Project Blue Feedback&lt;/h2&gt;
+
+&lt;p&gt;We were asked to give some feedback about the project in our last studio meeting. I thought it would be a good idea to share some of what I said in this blog post.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Communication&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;At times there was a noticeable lack of communication in the bosses pod specifically. In the last few weeks, Gino did a better job of communicating and asking how our tasks were going.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Jira Tasks&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;It felt like there was no consequences for not having your Jira task done by it’s due date. There were times where I didn’t make time for myself to finish my Jira task by it’s due date because I knew it would just get shifted to the next task. I feel like this is an issue because even if COVID-19 hadn’t impacted our development there would have been large scope reductions anyways. I think not completing your Jira task by it’s due date should impact your grade (for MDP students). That would be enough motivation to get it done in a timely manner. Project leads I imagine would help enforce this.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pre-production&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Having an offical pre-production phase of the project was nice because it provided a roadmap used throughout the semester, but I felt like it took too long. We would have easily had another 2 weeks of development if pre-production was shorter.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Progress over time&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;I wasn’t apart of the Fall 19 Dreamwillow project, but it woulds like that project was backloaded in terms of work done. Project Blue was the same. I think if Jira due dates were enforced this might help reduce the amount of new work done in the 2nd half of the semester.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;studio-meetings&quot;&gt;Studio Meetings&lt;/h2&gt;
+
+&lt;p&gt;April 12th - Discord&lt;/p&gt;
+
+&lt;p&gt;April 19th - Discord&lt;/p&gt;</content><author><name>Blake</name></author><summary type="html">Pre-Gold 1 and Pre-Gold FINAL Blog Post</summary></entry><entry><title type="html">Fourth Blog</title><link href="http://localhost:4000/WSoft-Dev-Blog/2020/04/06/Fourth-Blog.html" rel="alternate" type="text/html" title="Fourth Blog" /><published>2020-04-06T00:00:00-04:00</published><updated>2020-04-06T00:00:00-04:00</updated><id>http://localhost:4000/WSoft-Dev-Blog/2020/04/06/Fourth-Blog</id><content type="html" xml:base="http://localhost:4000/WSoft-Dev-Blog/2020/04/06/Fourth-Blog.html">&lt;p&gt;1/2 of Pre-beta 2 and Pre-beta FINAL Blog Post&lt;/p&gt;
 
 &lt;!--more--&gt;
 
